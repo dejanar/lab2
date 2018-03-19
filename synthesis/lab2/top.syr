@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.18 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.19 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Reading design: top.prj
 
@@ -108,40 +108,40 @@ Cores Search Directories           : {"../../source/coregen/char_rom"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\vga_sync.vhd" into library work
+Parsing VHDL file "C:\materija\RA193-2015\lab2\source\rtl\vhdl\vga_sync.vhd" into library work
 Parsing entity <vga_sync>.
 Parsing architecture <rtl> of entity <vga_sync>.
-Parsing VHDL file "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\coregen\dcm75MHz.vhd" into library work
+Parsing VHDL file "C:\materija\RA193-2015\lab2\source\coregen\dcm75MHz.vhd" into library work
 Parsing entity <dcm75MHz>.
 Parsing architecture <xilinx> of entity <dcm75mhz>.
-Parsing VHDL file "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\coregen\dcm50MHz.vhd" into library work
+Parsing VHDL file "C:\materija\RA193-2015\lab2\source\coregen\dcm50MHz.vhd" into library work
 Parsing entity <dcm50MHz>.
 Parsing architecture <xilinx> of entity <dcm50mhz>.
-Parsing VHDL file "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\coregen\dcm25MHz.vhd" into library work
+Parsing VHDL file "C:\materija\RA193-2015\lab2\source\coregen\dcm25MHz.vhd" into library work
 Parsing entity <dcm25MHz>.
 Parsing architecture <xilinx> of entity <dcm25mhz>.
-Parsing VHDL file "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\coregen\dcm108MHz.vhd" into library work
+Parsing VHDL file "C:\materija\RA193-2015\lab2\source\coregen\dcm108MHz.vhd" into library work
 Parsing entity <dcm108MHz>.
 Parsing architecture <xilinx> of entity <dcm108mhz>.
-Parsing VHDL file "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\coregen\char_rom\char_rom_def.vhd" into library work
+Parsing VHDL file "C:\materija\RA193-2015\lab2\source\coregen\char_rom\char_rom_def.vhd" into library work
 Parsing entity <char_rom_def>.
 Parsing architecture <char_rom_def_a> of entity <char_rom_def>.
-Parsing VHDL file "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\vga.vhd" into library work
+Parsing VHDL file "C:\materija\RA193-2015\lab2\source\rtl\vhdl\vga.vhd" into library work
 Parsing entity <vga>.
 Parsing architecture <rtl> of entity <vga>.
-Parsing VHDL file "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\text_mem.vhd" into library work
+Parsing VHDL file "C:\materija\RA193-2015\lab2\source\rtl\vhdl\text_mem.vhd" into library work
 Parsing entity <text_mem>.
 Parsing architecture <arc_text_mem> of entity <text_mem>.
-Parsing VHDL file "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\graphics_mem.vhd" into library work
+Parsing VHDL file "C:\materija\RA193-2015\lab2\source\rtl\vhdl\graphics_mem.vhd" into library work
 Parsing entity <graphics_mem>.
 Parsing architecture <arc_graphics_mem> of entity <graphics_mem>.
-Parsing VHDL file "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\char_rom.vhd" into library work
+Parsing VHDL file "C:\materija\RA193-2015\lab2\source\rtl\vhdl\char_rom.vhd" into library work
 Parsing entity <char_rom>.
 Parsing architecture <Behavioral> of entity <char_rom>.
-Parsing VHDL file "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\vga_top.vhd" into library work
+Parsing VHDL file "C:\materija\RA193-2015\lab2\source\rtl\vhdl\vga_top.vhd" into library work
 Parsing entity <vga_top>.
 Parsing architecture <rtl> of entity <vga_top>.
-Parsing VHDL file "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\top.vhd" into library work
+Parsing VHDL file "C:\materija\RA193-2015\lab2\source\rtl\vhdl\top.vhd" into library work
 Parsing entity <top>.
 Parsing architecture <rtl> of entity <top>.
 
@@ -150,14 +150,14 @@ Parsing architecture <rtl> of entity <top>.
 =========================================================================
 
 Elaborating entity <top> (architecture <rtl>) with generics from library <work>.
-WARNING:HDLCompiler:1127 - "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\top.vhd" Line 163: Assignment to message_lenght ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\top.vhd" Line 168: Assignment to graphics_lenght ignored, since the identifier is never used
-WARNING:HDLCompiler:89 - "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\top.vhd" Line 106: <oddr2> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:1127 - "C:\materija\RA193-2015\lab2\source\rtl\vhdl\top.vhd" Line 211: Assignment to message_lenght ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\materija\RA193-2015\lab2\source\rtl\vhdl\top.vhd" Line 216: Assignment to graphics_lenght ignored, since the identifier is never used
+WARNING:HDLCompiler:89 - "C:\materija\RA193-2015\lab2\source\rtl\vhdl\top.vhd" Line 106: <oddr2> remains a black-box since it has no binding entity.
 
 Elaborating entity <vga_top> (architecture <rtl>) with generics from library <work>.
 
 Elaborating entity <vga> (architecture <rtl>) with generics from library <work>.
-WARNING:HDLCompiler:89 - "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\vga.vhd" Line 123: <srl16> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "C:\materija\RA193-2015\lab2\source\rtl\vhdl\vga.vhd" Line 123: <srl16> remains a black-box since it has no binding entity.
 
 Elaborating entity <vga_sync> (architecture <rtl>) with generics from library <work>.
 
@@ -166,49 +166,71 @@ Elaborating entity <dcm25MHz> (architecture <xilinx>) from library <work>.
 Elaborating entity <char_rom> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <char_rom_def> (architecture <char_rom_def_a>) from library <work>.
-INFO:HDLCompiler:679 - "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\char_rom.vhd" Line 77. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\materija\RA193-2015\lab2\source\rtl\vhdl\char_rom.vhd" Line 77. Case statement is complete. others clause is never selected
 
 Elaborating entity <text_mem> (architecture <arc_text_mem>) with generics from library <work>.
 
 Elaborating entity <graphics_mem> (architecture <arc_graphics_mem>) with generics from library <work>.
-WARNING:HDLCompiler:1127 - "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\vga_top.vhd" Line 301: Assignment to grid_size ignored, since the identifier is never used
-WARNING:HDLCompiler:634 - "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\top.vhd" Line 142: Net <char_we> does not have a driver.
-WARNING:HDLCompiler:634 - "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\top.vhd" Line 143: Net <char_address[13]> does not have a driver.
-WARNING:HDLCompiler:634 - "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\top.vhd" Line 144: Net <char_value[5]> does not have a driver.
-WARNING:HDLCompiler:634 - "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\top.vhd" Line 146: Net <pixel_address[19]> does not have a driver.
-WARNING:HDLCompiler:634 - "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\top.vhd" Line 147: Net <pixel_value[31]> does not have a driver.
-WARNING:HDLCompiler:634 - "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\top.vhd" Line 148: Net <pixel_we> does not have a driver.
-WARNING:HDLCompiler:634 - "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\top.vhd" Line 154: Net <dir_red[7]> does not have a driver.
-WARNING:HDLCompiler:634 - "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\top.vhd" Line 155: Net <dir_green[7]> does not have a driver.
-WARNING:HDLCompiler:634 - "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\top.vhd" Line 156: Net <dir_blue[7]> does not have a driver.
+WARNING:HDLCompiler:1127 - "C:\materija\RA193-2015\lab2\source\rtl\vhdl\vga_top.vhd" Line 301: Assignment to grid_size ignored, since the identifier is never used
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <top>.
-    Related source file is "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\top.vhd".
+    Related source file is "C:\materija\RA193-2015\lab2\source\rtl\vhdl\top.vhd".
         RES_TYPE = 1
         TEXT_MEM_DATA_WIDTH = 6
         GRAPH_MEM_DATA_WIDTH = 32
-INFO:Xst:3210 - "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\top.vhd" line 199: Output port <dir_pixel_column_o> of the instance <vga_top_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\top.vhd" line 199: Output port <dir_pixel_row_o> of the instance <vga_top_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\top.vhd" line 199: Output port <vga_rst_n_o> of the instance <vga_top_i> is unconnected or connected to loadless signal.
-WARNING:Xst:653 - Signal <char_address> is used but never assigned. This sourceless signal will be automatically connected to value GND.
-WARNING:Xst:653 - Signal <char_value> is used but never assigned. This sourceless signal will be automatically connected to value GND.
-WARNING:Xst:653 - Signal <pixel_address> is used but never assigned. This sourceless signal will be automatically connected to value GND.
-WARNING:Xst:653 - Signal <pixel_value> is used but never assigned. This sourceless signal will be automatically connected to value GND.
-WARNING:Xst:653 - Signal <dir_red> is used but never assigned. This sourceless signal will be automatically connected to value GND.
-WARNING:Xst:653 - Signal <dir_green> is used but never assigned. This sourceless signal will be automatically connected to value GND.
-WARNING:Xst:653 - Signal <dir_blue> is used but never assigned. This sourceless signal will be automatically connected to value GND.
-WARNING:Xst:653 - Signal <char_we> is used but never assigned. This sourceless signal will be automatically connected to value GND.
-WARNING:Xst:653 - Signal <pixel_we> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+INFO:Xst:3210 - "C:\materija\RA193-2015\lab2\source\rtl\vhdl\top.vhd" line 247: Output port <vga_rst_n_o> of the instance <vga_top_i> is unconnected or connected to loadless signal.
+WARNING:Xst:737 - Found 1-bit latch for signal <char_address<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <char_address<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <char_address<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <char_address<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <char_value<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <char_value<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <char_value<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <char_value<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <char_value<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <char_value<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 11-bit comparator greater for signal <dir_pixel_column[10]_GND_5_o_LessThan_13_o> created at line 301
+    Found 11-bit comparator greater for signal <dir_pixel_column[10]_GND_5_o_LessThan_15_o> created at line 302
+    Found 11-bit comparator greater for signal <dir_pixel_column[10]_GND_5_o_LessThan_17_o> created at line 303
+    Found 11-bit comparator greater for signal <dir_pixel_column[10]_GND_5_o_LessThan_19_o> created at line 304
+    Found 11-bit comparator greater for signal <dir_pixel_column[10]_GND_5_o_LessThan_21_o> created at line 305
+    Found 11-bit comparator greater for signal <dir_pixel_column[10]_GND_5_o_LessThan_23_o> created at line 306
+    Found 11-bit comparator greater for signal <dir_pixel_column[10]_GND_5_o_LessThan_25_o> created at line 307
+    Found 11-bit comparator greater for signal <dir_pixel_row[10]_GND_5_o_LessThan_39_o> created at line 330
+    Found 11-bit comparator greater for signal <dir_pixel_row[10]_GND_5_o_LessThan_40_o> created at line 331
+    Found 11-bit comparator greater for signal <dir_pixel_row[10]_GND_5_o_LessThan_41_o> created at line 332
+    Found 11-bit comparator greater for signal <dir_pixel_row[10]_GND_5_o_LessThan_42_o> created at line 333
+    Found 11-bit comparator greater for signal <dir_pixel_row[10]_GND_5_o_LessThan_43_o> created at line 334
+    Found 11-bit comparator greater for signal <dir_pixel_row[10]_GND_5_o_LessThan_44_o> created at line 335
+    Found 11-bit comparator greater for signal <dir_pixel_row[10]_GND_5_o_LessThan_45_o> created at line 336
+    Found 11-bit comparator greater for signal <dir_pixel_row[10]_GND_5_o_LessThan_46_o> created at line 337
+    Found 11-bit comparator greater for signal <dir_pixel_row[10]_GND_5_o_LessThan_47_o> created at line 338
+    Found 11-bit comparator greater for signal <dir_pixel_row[10]_GND_5_o_LessThan_48_o> created at line 339
+    Found 11-bit comparator greater for signal <dir_pixel_row[10]_GND_5_o_LessThan_49_o> created at line 340
+    Found 11-bit comparator greater for signal <dir_pixel_row[10]_GND_5_o_LessThan_86_o> created at line 382
+    Found 11-bit comparator greater for signal <dir_pixel_row[10]_GND_5_o_LessThan_88_o> created at line 383
+    Found 11-bit comparator greater for signal <dir_pixel_row[10]_GND_5_o_LessThan_90_o> created at line 384
+    Found 11-bit comparator greater for signal <dir_pixel_row[10]_GND_5_o_LessThan_92_o> created at line 385
+    Found 11-bit comparator greater for signal <dir_pixel_row[10]_GND_5_o_LessThan_94_o> created at line 386
+    Found 11-bit comparator greater for signal <dir_pixel_row[10]_GND_5_o_LessThan_96_o> created at line 387
+    Found 11-bit comparator greater for signal <dir_pixel_row[10]_GND_5_o_LessThan_98_o> created at line 388
+    Found 11-bit comparator greater for signal <dir_pixel_row[10]_GND_5_o_LessThan_38_o> created at line 389
+    Found 11-bit comparator greater for signal <dir_pixel_row[10]_GND_5_o_LessThan_102_o> created at line 390
+    Found 11-bit comparator greater for signal <dir_pixel_row[10]_GND_5_o_LessThan_104_o> created at line 391
+    Found 11-bit comparator greater for signal <dir_pixel_row[10]_GND_5_o_LessThan_106_o> created at line 392
     Summary:
-	no macro.
+	inferred  10 Latch(s).
+	inferred  29 Comparator(s).
+	inferred  84 Multiplexer(s).
 Unit <top> synthesized.
+WARNING:Xst:2972 - "C:\materija\RA193-2015\lab2\source\rtl\vhdl\vga_top.vhd" line 251. All outputs of instance <graphics_mem_i> of block <graphics_mem> are unconnected in block <vga_top>. Underlying logic will be removed.
 
 Synthesizing Unit <vga_top>.
-    Related source file is "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\vga_top.vhd".
+    Related source file is "C:\materija\RA193-2015\lab2\source\rtl\vhdl\vga_top.vhd".
         H_RES = 640
         V_RES = 480
         MEM_ADDR_WIDTH = 14
@@ -217,17 +239,15 @@ Synthesizing Unit <vga_top>.
         GRAPH_MEM_DATA_WIDTH = 32
         RES_TYPE = 1
         MEM_SIZE = 4800
-    Found 22-bit adder for signal <graph_pixel_addr_c> created at line 267.
     Found 22-bit adder for signal <txt_rom_addr_c> created at line 271.
-    Found 11x11-bit multiplier for signal <n0100> created at line 267.
     Found 11x11-bit multiplier for signal <n0103> created at line 271.
     Summary:
-	inferred   2 Multiplier(s).
-	inferred   2 Adder/Subtractor(s).
+	inferred   1 Multiplier(s).
+	inferred   1 Adder/Subtractor(s).
 Unit <vga_top> synthesized.
 
 Synthesizing Unit <vga>.
-    Related source file is "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\vga.vhd".
+    Related source file is "C:\materija\RA193-2015\lab2\source\rtl\vhdl\vga.vhd".
         RESOLUTION_TYPE = 1
         H_RES = 640
         V_RES = 480
@@ -237,7 +257,7 @@ Synthesizing Unit <vga>.
 Unit <vga> synthesized.
 
 Synthesizing Unit <vga_sync>.
-    Related source file is "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\vga_sync.vhd".
+    Related source file is "C:\materija\RA193-2015\lab2\source\rtl\vhdl\vga_sync.vhd".
         HORIZONTAL_RES = 640
         VERTICAL_RES = 480
         FRAME_SIZE = 4
@@ -275,20 +295,20 @@ Synthesizing Unit <vga_sync>.
 Unit <vga_sync> synthesized.
 
 Synthesizing Unit <dcm25MHz>.
-    Related source file is "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\coregen\dcm25MHz.vhd".
+    Related source file is "C:\materija\RA193-2015\lab2\source\coregen\dcm25MHz.vhd".
     Summary:
 	no macro.
 Unit <dcm25MHz> synthesized.
 
 Synthesizing Unit <char_rom>.
-    Related source file is "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\char_rom.vhd".
+    Related source file is "C:\materija\RA193-2015\lab2\source\rtl\vhdl\char_rom.vhd".
     Found 1-bit 8-to-1 multiplexer for signal <rom_mux_output_o> created at line 67.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <char_rom> synthesized.
 
 Synthesizing Unit <text_mem>.
-    Related source file is "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\text_mem.vhd".
+    Related source file is "C:\materija\RA193-2015\lab2\source\rtl\vhdl\text_mem.vhd".
         MEM_ADDR_WIDTH = 14
         MEM_DATA_WIDTH = 6
         MEM_SIZE = 4800
@@ -306,52 +326,81 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <text_me
 Unit <text_mem> synthesized.
 
 Synthesizing Unit <graphics_mem>.
-    Related source file is "\\samba03\nastavni_materijali\lprs2\vezbe\lab2\HDL\source\rtl\vhdl\graphics_mem.vhd".
+    Related source file is "C:\materija\RA193-2015\lab2\source\rtl\vhdl\graphics_mem.vhd".
         MEM_ADDR_WIDTH = 20
         MEM_DATA_WIDTH = 32
         MEM_SIZE = 307200
 WARNING:Xst:647 - Input <reset_n_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:3035 - Index value(s) does not match array range for signal <graphics_mem>, simulation mismatch.
     Found 9600x32-bit dual-port RAM <Mram_graphics_mem> for signal <graphics_mem>.
-    Found 32-bit register for signal <rd_value>.
-    Found 1-bit 32-to-1 multiplexer for signal <rd_data_o> created at line 81.
-    Found 31-bit comparator greater for signal <index_0_t[30]_GND_40_o_LessThan_8_o> created at line 84
-    Found 31-bit comparator greater for signal <index_1_t[30]_GND_40_o_LessThan_11_o> created at line 87
+    Found 1-bit register for signal <rd_value<31>>.
+    Found 1-bit register for signal <rd_value<30>>.
+    Found 1-bit register for signal <rd_value<29>>.
+    Found 1-bit register for signal <rd_value<28>>.
+    Found 1-bit register for signal <rd_value<27>>.
+    Found 1-bit register for signal <rd_value<26>>.
+    Found 1-bit register for signal <rd_value<25>>.
+    Found 1-bit register for signal <rd_value<24>>.
+    Found 1-bit register for signal <rd_value<23>>.
+    Found 1-bit register for signal <rd_value<22>>.
+    Found 1-bit register for signal <rd_value<21>>.
+    Found 1-bit register for signal <rd_value<20>>.
+    Found 1-bit register for signal <rd_value<19>>.
+    Found 1-bit register for signal <rd_value<18>>.
+    Found 1-bit register for signal <rd_value<17>>.
+    Found 1-bit register for signal <rd_value<16>>.
+    Found 1-bit register for signal <rd_value<15>>.
+    Found 1-bit register for signal <rd_value<14>>.
+    Found 1-bit register for signal <rd_value<13>>.
+    Found 1-bit register for signal <rd_value<12>>.
+    Found 1-bit register for signal <rd_value<11>>.
+    Found 1-bit register for signal <rd_value<10>>.
+    Found 1-bit register for signal <rd_value<9>>.
+    Found 1-bit register for signal <rd_value<8>>.
+    Found 1-bit register for signal <rd_value<7>>.
+    Found 1-bit register for signal <rd_value<6>>.
+    Found 1-bit register for signal <rd_value<5>>.
+    Found 1-bit register for signal <rd_value<4>>.
+    Found 1-bit register for signal <rd_value<3>>.
+    Found 1-bit register for signal <rd_value<2>>.
+    Found 1-bit register for signal <rd_value<1>>.
+    Found 1-bit register for signal <rd_value<0>>.
     Summary:
 	inferred   1 RAM(s).
 	inferred  32 D-type flip-flop(s).
-	inferred   2 Comparator(s).
-	inferred   7 Multiplexer(s).
 Unit <graphics_mem> synthesized.
 
 =========================================================================
 HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 2
+# RAMs                                                 : 1
  4800x6-bit dual-port RAM                              : 1
- 9600x32-bit dual-port RAM                             : 1
-# Multipliers                                          : 2
- 11x11-bit multiplier                                  : 2
-# Adders/Subtractors                                   : 4
+# Multipliers                                          : 1
+ 11x11-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 3
  11-bit adder                                          : 2
- 22-bit adder                                          : 2
-# Registers                                            : 20
+ 22-bit adder                                          : 1
+# Registers                                            : 19
  1-bit register                                        : 13
  11-bit register                                       : 2
- 32-bit register                                       : 1
  6-bit register                                        : 1
  8-bit register                                        : 3
-# Comparators                                          : 11
+# Latches                                              : 10
+ 1-bit latch                                           : 10
+# Comparators                                          : 38
+ 11-bit comparator greater                             : 29
  11-bit comparator lessequal                           : 2
  12-bit comparator greater                             : 3
  12-bit comparator lessequal                           : 3
- 31-bit comparator greater                             : 3
-# Multiplexers                                         : 9
- 1-bit 2-to-1 multiplexer                              : 5
- 1-bit 32-to-1 multiplexer                             : 1
+ 31-bit comparator greater                             : 1
+# Multiplexers                                         : 86
+ 1-bit 2-to-1 multiplexer                              : 67
  1-bit 8-to-1 multiplexer                              : 1
- 31-bit 2-to-1 multiplexer                             : 2
+ 20-bit 2-to-1 multiplexer                             : 10
+ 24-bit 2-to-1 multiplexer                             : 6
+ 31-bit 2-to-1 multiplexer                             : 1
+ 32-bit 2-to-1 multiplexer                             : 1
 
 =========================================================================
 
@@ -362,58 +411,7 @@ Macro Statistics
 Reading core <../../source/coregen/char_rom/char_rom_def.ngc>.
 Loading core <char_rom_def> for timing and area information for instance <BRAM_MEM_I>.
 INFO:Xst:1901 - Instance B6 in unit char_rom_def of type RAMB16_S9 has been replaced by RAMB16BWER
-WARNING:Xst:1290 - Hierarchical block <graphics_mem_i> is unconnected in block <vga_top_i>.
-   It will be removed from the design.
-WARNING:Xst:1710 - FF/Latch <green_r_7> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <green_r_6> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <green_r_5> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <green_r_4> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <green_r_3> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <green_r_2> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <green_r_1> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <green_r_0> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <red_r_7> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <red_r_6> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <red_r_5> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <red_r_4> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <red_r_3> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <red_r_2> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <red_r_1> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <red_r_0> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <blue_r_7> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <blue_r_6> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <blue_r_5> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <blue_r_4> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <blue_r_3> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <blue_r_2> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <blue_r_1> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <blue_r_0> (without init value) has a constant value of 0 in block <vga_sync_i>. This FF/Latch will be trimmed during the optimization process.
-
-Synthesizing (advanced) Unit <graphics_mem>.
-INFO:Xst:3226 - The RAM <Mram_graphics_mem> will be implemented as a BLOCK RAM, absorbing the following register(s): <rd_value>
-    -----------------------------------------------------------------------
-    | ram_type           | Block                               |          |
-    -----------------------------------------------------------------------
-    | Port A                                                              |
-    |     aspect ratio   | 9600-word x 32-bit                  |          |
-    |     mode           | write-first                         |          |
-    |     clkA           | connected to signal <clk_i>         | rise     |
-    |     weA            | connected to signal <GND>           | high     |
-    |     addrA          | connected to signal <GND>           |          |
-    |     diA            | connected to signal <GND>           |          |
-    -----------------------------------------------------------------------
-    | optimization       | speed                               |          |
-    -----------------------------------------------------------------------
-    | Port B                                                              |
-    |     aspect ratio   | 9600-word x 32-bit                  |          |
-    |     mode           | write-first                         |          |
-    |     clkB           | connected to signal <clk_i>         | rise     |
-    |     addrB          | connected to signal <index_0>       |          |
-    |     doB            | connected to signal <rd_value>      |          |
-    -----------------------------------------------------------------------
-    | optimization       | speed                               |          |
-    -----------------------------------------------------------------------
-Unit <graphics_mem> synthesized (advanced).
+INFO:Xst:2261 - The FF/Latch <green_r_0> in Unit <vga_sync_i> is equivalent to the following 23 FFs/Latches, which will be removed : <green_r_1> <green_r_2> <green_r_3> <green_r_4> <green_r_5> <green_r_6> <green_r_7> <red_r_0> <red_r_1> <red_r_2> <red_r_3> <red_r_4> <red_r_5> <red_r_6> <red_r_7> <blue_r_0> <blue_r_1> <blue_r_2> <blue_r_3> <blue_r_4> <blue_r_5> <blue_r_6> <blue_r_7> 
 
 Synthesizing (advanced) Unit <text_mem>.
 INFO:Xst:3226 - The RAM <Mram_text_mem> will be implemented as a BLOCK RAM, absorbing the following register(s): <rd_data_o>
@@ -422,11 +420,11 @@ INFO:Xst:3226 - The RAM <Mram_text_mem> will be implemented as a BLOCK RAM, abso
     -----------------------------------------------------------------------
     | Port A                                                              |
     |     aspect ratio   | 4800-word x 6-bit                   |          |
-    |     mode           | write-first                         |          |
+    |     mode           | read-first                          |          |
     |     clkA           | connected to signal <clk_i>         | rise     |
-    |     weA            | connected to signal <GND>           | high     |
-    |     addrA          | connected to signal <GND>           |          |
-    |     diA            | connected to signal <GND>           |          |
+    |     weA            | connected to signal <VCC>           | high     |
+    |     addrA          | connected to signal <wr_addr_i>     |          |
+    |     diA            | connected to signal <wr_data_i>     |          |
     -----------------------------------------------------------------------
     | optimization       | speed                               |          |
     -----------------------------------------------------------------------
@@ -448,104 +446,78 @@ Unit <vga_sync> synthesized (advanced).
 
 Synthesizing (advanced) Unit <vga_top>.
 	Multiplier <Mmult_n0103> in block <vga_top> and adder/subtractor <Madd_txt_rom_addr_c_Madd> in block <vga_top> are combined into a MAC<Maddsub_n0103>.
-	Multiplier <Mmult_n0100> in block <vga_top> and adder/subtractor <Madd_graph_pixel_addr_c_Madd> in block <vga_top> are combined into a MAC<Maddsub_n0100>.
 Unit <vga_top> synthesized (advanced).
 
 =========================================================================
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 2
+# RAMs                                                 : 1
  4800x6-bit dual-port block RAM                        : 1
- 9600x32-bit dual-port block RAM                       : 1
-# MACs                                                 : 2
- 11x11-to-20-bit MAC                                   : 1
+# MACs                                                 : 1
  8x7-to-14-bit MAC                                     : 1
 # Counters                                             : 2
  11-bit up counter                                     : 2
 # Registers                                            : 37
  Flip-Flops                                            : 37
-# Comparators                                          : 11
+# Comparators                                          : 38
+ 11-bit comparator greater                             : 29
  11-bit comparator lessequal                           : 2
  12-bit comparator greater                             : 3
  12-bit comparator lessequal                           : 3
- 31-bit comparator greater                             : 3
-# Multiplexers                                         : 9
- 1-bit 2-to-1 multiplexer                              : 5
- 1-bit 32-to-1 multiplexer                             : 1
+ 31-bit comparator greater                             : 1
+# Multiplexers                                         : 86
+ 1-bit 2-to-1 multiplexer                              : 67
  1-bit 8-to-1 multiplexer                              : 1
- 31-bit 2-to-1 multiplexer                             : 2
+ 20-bit 2-to-1 multiplexer                             : 10
+ 24-bit 2-to-1 multiplexer                             : 6
+ 31-bit 2-to-1 multiplexer                             : 1
+ 32-bit 2-to-1 multiplexer                             : 1
 
 =========================================================================
 
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-WARNING:Xst:1710 - FF/Latch <blue_r_7> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <blue_r_6> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <blue_r_5> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <blue_r_4> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <blue_r_3> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <blue_r_2> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <blue_r_1> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <blue_r_0> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <red_r_7> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <red_r_6> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <red_r_5> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <red_r_4> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <red_r_3> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <red_r_2> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <red_r_1> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <red_r_0> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <green_r_7> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <green_r_6> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <green_r_5> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <green_r_4> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <green_r_3> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <green_r_2> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <green_r_1> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <green_r_0> (without init value) has a constant value of 0 in block <vga_sync>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <green_r_0> in Unit <vga_sync> is equivalent to the following 23 FFs/Latches, which will be removed : <green_r_1> <green_r_2> <green_r_3> <green_r_4> <green_r_5> <green_r_6> <green_r_7> <red_r_0> <red_r_1> <red_r_2> <red_r_3> <red_r_4> <red_r_5> <red_r_6> <red_r_7> <blue_r_0> <blue_r_1> <blue_r_2> <blue_r_3> <blue_r_4> <blue_r_5> <blue_r_6> <blue_r_7> 
+WARNING:Xst:3002 - This design contains one or more registers/latches that are directly
+   incompatible with the Spartan6 architecture. The two primary causes of this is
+   either a register or latch described with both an asynchronous set and
+   asynchronous reset, or a register or latch described with an asynchronous
+   set or reset which however has an initialization value of the opposite 
+   polarity (i.e. asynchronous reset with an initialization value of 1).
+    While this circuit can be built, it creates a sub-optimal implementation
+   in terms of area, power and performance. For a more optimal implementation
+   Xilinx highly recommends one of the following:
+
+          1) Remove either the set or reset from all registers and latches
+             if not needed for required functionality
+          2) Modify the code in order to produce a synchronous set
+             and/or reset (both is preferred)
+          3) Ensure all registers have the same initialization value as the
+             described asynchronous set or reset polarity
+          4) Use the -async_to_sync option to transform the asynchronous
+             set/reset to synchronous operation
+             (timing simulation highly recommended when using this option)
+
+  Please refer to http://www.xilinx.com search string "Spartan6 asynchronous set/reset" for more details.
+
+  List of register instances with asynchronous set and reset:
+    char_value_0 in unit <top>
+    char_value_1 in unit <top>
+    char_value_2 in unit <top>
+    char_value_3 in unit <top>
+    char_value_4 in unit <top>
+    char_value_5 in unit <top>
+    char_address_0 in unit <top>
+    char_address_1 in unit <top>
+    char_address_2 in unit <top>
+    char_address_3 in unit <top>
+
 
 Optimizing unit <top> ...
 
 Optimizing unit <vga_sync> ...
-
-Optimizing unit <graphics_mem> ...
-WARNING:Xst:2677 - Node <vga_top_i/Maddsub_n0100> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem32> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem31> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem29> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem28> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem30> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem27> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem26> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem24> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem23> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem25> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem22> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem21> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem19> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem18> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem20> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem17> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem16> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem14> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem13> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem15> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem12> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem11> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem9> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem8> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem10> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem7> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem6> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem4> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem3> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem5> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem2> of sequential type is unconnected in block <top>.
-WARNING:Xst:2677 - Node <vga_top_i/graphics_mem_i/Mram_graphics_mem1> of sequential type is unconnected in block <top>.
-INFO:Xst:2399 - RAMs <vga_top_i/text_mem_i/Mram_text_mem3>, <vga_top_i/text_mem_i/Mram_text_mem1> are equivalent, second RAM is removed
-INFO:Xst:2399 - RAMs <vga_top_i/text_mem_i/Mram_text_mem3>, <vga_top_i/text_mem_i/Mram_text_mem2> are equivalent, second RAM is removed
 WARNING:Xst:1710 - FF/Latch <vga_top_i/vga_i/vga_sync_i/h_count_r_10> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <vga_top_i/vga_i/vga_sync_i/v_count_r_10> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
 
@@ -559,8 +531,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 33
- Flip-Flops                                            : 33
+# Registers                                            : 34
+ Flip-Flops                                            : 34
 
 =========================================================================
 
@@ -583,25 +555,28 @@ Top Level Output File Name         : top.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 93
+# BELS                             : 116
 #      GND                         : 2
 #      INV                         : 5
 #      LUT1                        : 18
-#      LUT2                        : 1
-#      LUT3                        : 7
-#      LUT5                        : 3
-#      LUT6                        : 17
+#      LUT2                        : 3
+#      LUT3                        : 10
+#      LUT4                        : 8
+#      LUT5                        : 8
+#      LUT6                        : 21
 #      MUXCY                       : 18
+#      MUXF7                       : 1
 #      VCC                         : 2
 #      XORCY                       : 20
-# FlipFlops/Latches                : 34
+# FlipFlops/Latches                : 45
 #      FD                          : 2
-#      FDR                         : 19
+#      FDR                         : 20
 #      FDRE                        : 10
 #      FDS                         : 2
+#      LD                          : 10
 #      ODDR2                       : 1
-# RAMS                             : 2
-#      RAMB16BWER                  : 2
+# RAMS                             : 4
+#      RAMB16BWER                  : 4
 # Shift Registers                  : 1
 #      SRL16                       : 1
 # Clock Buffers                    : 1
@@ -622,26 +597,26 @@ Selected Device : 6slx45fgg676-2
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:              34  out of  54576     0%  
- Number of Slice LUTs:                   52  out of  27288     0%  
-    Number used as Logic:                51  out of  27288     0%  
+ Number of Slice Registers:              45  out of  54576     0%  
+ Number of Slice LUTs:                   74  out of  27288     0%  
+    Number used as Logic:                73  out of  27288     0%  
     Number used as Memory:                1  out of   6408     0%  
        Number used as SRL:                1
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:     64
-   Number with an unused Flip Flop:      30  out of     64    46%  
-   Number with an unused LUT:            12  out of     64    18%  
-   Number of fully used LUT-FF pairs:    22  out of     64    34%  
-   Number of unique control sets:         5
+ Number of LUT Flip Flop pairs used:     86
+   Number with an unused Flip Flop:      41  out of     86    47%  
+   Number with an unused LUT:            12  out of     86    13%  
+   Number of fully used LUT-FF pairs:    33  out of     86    38%  
+   Number of unique control sets:         9
 
 IO Utilization: 
  Number of IOs:                          32
  Number of bonded IOBs:                  32  out of    358     8%  
 
 Specific Feature Utilization:
- Number of Block RAM/FIFO:                2  out of    116     1%  
-    Number using Block RAM only:          2
+ Number of Block RAM/FIFO:                4  out of    116     3%  
+    Number using Block RAM only:          4
  Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
  Number of DSP48A1s:                      1  out of     58     1%  
 
@@ -663,11 +638,19 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
------------------------------------+------------------------+-------+
-Clock Signal                       | Clock buffer(FF name)  | Load  |
------------------------------------+------------------------+-------+
-clk_i                              | DCM_SP:CLKFX           | 39    |
------------------------------------+------------------------+-------+
+------------------------------------+------------------------+-------+
+Clock Signal                        | Clock buffer(FF name)  | Load  |
+------------------------------------+------------------------+-------+
+clk_i                               | DCM_SP:CLKFX           | 42    |
+char_address_2_G(char_address_3_G:O)| NONE(*)(char_address_3)| 2     |
+char_address_1_G(char_address_1_G:O)| NONE(*)(char_address_1)| 1     |
+char_address_0_G(char_address_0_G:O)| NONE(*)(char_address_0)| 1     |
+char_value_0_G(char_value_5_G:O)    | NONE(*)(char_value_5)  | 6     |
+------------------------------------+------------------------+-------+
+(*) These 4 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
 Asynchronous Control Signals Information:
 ----------------------------------------
@@ -677,9 +660,9 @@ Timing Summary:
 ---------------
 Speed Grade: -2
 
-   Minimum period: 9.344ns (Maximum Frequency: 107.015MHz)
+   Minimum period: 9.629ns (Maximum Frequency: 103.856MHz)
    Minimum input arrival time before clock: 3.404ns
-   Maximum output required time after clock: 4.118ns
+   Maximum output required time after clock: 4.839ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -688,27 +671,27 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk_i'
-  Clock period: 9.344ns (frequency: 107.015MHz)
-  Total number of paths / destination ports: 1299 / 102
+  Clock period: 9.629ns (frequency: 103.856MHz)
+  Total number of paths / destination ports: 2827 / 130
 -------------------------------------------------------------------------
-Delay:               10.092ns (Levels of Logic = 3)
-  Source:            vga_top_i/vga_i/vga_sync_i/v_count_r_9 (FF)
+Delay:               10.399ns (Levels of Logic = 3)
+  Source:            vga_top_i/vga_i/vga_sync_i/v_count_r_6 (FF)
   Destination:       vga_top_i/text_mem_i/Mram_text_mem3 (RAM)
   Source Clock:      clk_i rising 0.9X
   Destination Clock: clk_i rising 0.9X
 
-  Data Path: vga_top_i/vga_i/vga_sync_i/v_count_r_9 to vga_top_i/text_mem_i/Mram_text_mem3
+  Data Path: vga_top_i/vga_i/vga_sync_i/v_count_r_6 to vga_top_i/text_mem_i/Mram_text_mem3
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q             5   0.525   0.840  vga_top_i/vga_i/vga_sync_i/v_count_r_9 (vga_top_i/vga_i/vga_sync_i/v_count_r_9)
-     DSP48A1:B5->P11       5   5.145   0.949  vga_top_i/Maddsub_n0103 (vga_top_i/txt_rom_addr_c<11>)
-     LUT2:I0->O            8   0.250   1.052  vga_top_i/text_mem_i/index_t[30]_GND_22_o_LessThan_5_o1_SW2 (N16)
-     LUT6:I4->O            1   0.250   0.681  vga_top_i/text_mem_i/Mmux_index111 (vga_top_i/text_mem_i/index<7>)
-     RAMB16BWER:ADDRB8         0.400          vga_top_i/text_mem_i/Mram_text_mem3
+     FDRE:C->Q            12   0.525   1.068  vga_top_i/vga_i/vga_sync_i/v_count_r_6 (vga_top_i/vga_i/vga_sync_i/v_count_r_6)
+     DSP48A1:B2->P13      13   5.145   1.206  vga_top_i/Maddsub_n0103 (vga_top_i/txt_rom_addr_c<13>)
+     LUT2:I0->O            1   0.250   0.790  vga_top_i/text_mem_i/Mmux_index13_SW0 (N0)
+     LUT6:I4->O            3   0.250   0.765  vga_top_i/text_mem_i/Mmux_index13 (vga_top_i/text_mem_i/index<9>)
+     RAMB16BWER:ADDRB10        0.400          vga_top_i/text_mem_i/Mram_text_mem3
     ----------------------------------------
-    Total                     10.092ns (6.570ns logic, 3.522ns route)
-                                       (65.1% logic, 34.9% route)
+    Total                     10.399ns (6.570ns logic, 3.829ns route)
+                                       (63.2% logic, 36.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_i'
@@ -732,47 +715,85 @@ Offset:              3.404ns (Levels of Logic = 2)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_i'
-  Total number of paths / destination ports: 5 / 5
+  Total number of paths / destination ports: 29 / 29
 -------------------------------------------------------------------------
-Offset:              4.118ns (Levels of Logic = 1)
-  Source:            vga_top_i/vga_i/vga_sync_i/horiz_sync_out_r (FF)
-  Destination:       vga_hsync_o (PAD)
+Offset:              4.839ns (Levels of Logic = 1)
+  Source:            vga_top_i/vga_i/vga_sync_i/green_r_0 (FF)
+  Destination:       red_o<7> (PAD)
   Source Clock:      clk_i rising 0.9X
 
-  Data Path: vga_top_i/vga_i/vga_sync_i/horiz_sync_out_r to vga_hsync_o
+  Data Path: vga_top_i/vga_i/vga_sync_i/green_r_0 to red_o<7>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:C->Q              1   0.525   0.681  vga_top_i/vga_i/vga_sync_i/horiz_sync_out_r (vga_top_i/vga_i/vga_sync_i/horiz_sync_out_r)
-     OBUF:I->O                 2.912          vga_hsync_o_OBUF (vga_hsync_o)
+     FDR:C->Q             25   0.525   1.402  vga_top_i/vga_i/vga_sync_i/green_r_0 (vga_top_i/vga_i/vga_sync_i/green_r_0)
+     OBUF:I->O                 2.912          red_o_7_OBUF (red_o<7>)
     ----------------------------------------
-    Total                      4.118ns (3.437ns logic, 0.681ns route)
-                                       (83.5% logic, 16.5% route)
+    Total                      4.839ns (3.437ns logic, 1.402ns route)
+                                       (71.0% logic, 29.0% route)
 
 =========================================================================
 
 Cross Clock Domains Report:
 --------------------------
 
-Clock to Setup on destination clock clk_i
+Clock to Setup on destination clock char_address_0_G
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk_i          |   10.092|         |         |         |
+clk_i          |         |         |    2.284|         |
 ---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock char_address_1_G
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_i          |         |         |    2.284|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock char_address_2_G
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_i          |         |         |    2.314|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock char_value_0_G
+----------------+---------+---------+---------+---------+
+                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------+---------+---------+---------+---------+
+char_address_0_G|         |         |    2.123|         |
+char_address_1_G|         |         |    2.123|         |
+char_address_2_G|         |         |    2.155|         |
+----------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk_i
+----------------+---------+---------+---------+---------+
+                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------+---------+---------+---------+---------+
+char_address_0_G|         |    1.956|         |         |
+char_address_1_G|         |    1.956|         |         |
+char_address_2_G|         |    1.988|         |         |
+char_value_0_G  |         |    1.562|         |         |
+clk_i           |   10.399|         |         |         |
+----------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 10.00 secs
-Total CPU time to Xst completion: 10.47 secs
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.45 secs
  
 --> 
 
-Total memory usage is 281228 kilobytes
+Total memory usage is 282284 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  112 (   0 filtered)
-Number of infos    :    8 (   0 filtered)
+Number of warnings :   24 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
 
